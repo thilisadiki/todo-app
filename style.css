@@ -1,3 +1,5 @@
+/* Resetting styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +7,15 @@
     box-sizing: border-box;
 }
 
+/* Global styling */
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/* Main content container */
 .container {
     flex-grow: 1;
     display: flex;
@@ -19,6 +24,7 @@ body {
     background: linear-gradient(135deg, #fbe3e8, #ebf6f5, #5cbdb9);
     padding: 10px;
 }
+
 
 .todo-app {
     width: 100%;
@@ -64,7 +70,7 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #5cbdb9;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -120,7 +126,7 @@ ul li span:hover {
     background: #edeef0;
 }
 
-/* Styles for the social media icons container */
+/* Container for icons */
 .icons-container {
     width: 100%;
     max-width: 720px;
@@ -133,7 +139,8 @@ ul li span:hover {
     justify-content: space-around;
 }
 
-.icon-items {
+/* stying individual for icons */
+.icons-items {
     padding: 20px;
     display: inline-flex;
     align-items: center;
