@@ -7,27 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Main container for the entire webpage -->
     <div class="container">
         <div class="todo-app">
             <h2>Tasks List<img src="./images/task-list.png" alt="icon" /></h2>
+
+                        <!-- Input row for adding new tasks -->
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add task"></input>
                 <button onclick="addTask()">Add</button>
             </div>
+
+          <!-- Unordered list container for displaying tasks -->
             <ul id="list-container">
             </ul> 
         </div>       
     </div>
+
+        <!-- Footer section for social media icons and attribution -->
+
     <footer class="icons-container">
         <h3 > Share with others </h3>
+
+                <!-- Social media icons with links -->
         <a class="icons-items" href="https://www.facebook.com/sharer/sharer.php?u=https://thilisadiki.dev" target="_blank"><img src="./images/facebook.png" width="32px" height="auto" alt="Facebook"></a> 
         <a class="icons-items" href="https://twitter.com/intent/tweet?url=https://thilisadiki.dev&text=Check%20out%20this%20awesome%20todo%20list%20app!" target="_blank"><img src="./images/twitter.png" width="32px" height="auto" alt="Twitter"></a>
         <a class="icons-items" href="whatsapp://send?text=Check%20out%20this%20awesome%20todo%20list%20app%20at%20https://thilisadiki.dev" target="_blank"><img src="./images/whatsapp.png" width="32px" height="auto" alt="WhatsApp"></a>
-        <hr>
         <p>Website created by <a href="https://thilisadiki.dev">Jason Sadiki</a></p>
 </footer>
+
+    <!-- Script tag to include the JavaScript file -->
         <script src="main.js"></script>
-        
-    <script></script>
 </body>
 </html>

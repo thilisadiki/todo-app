@@ -57,6 +57,7 @@ body {
     margin-bottom: 25px;
 }
 
+/* Styling for input field */
 input {
     flex: 1;
     border: none;
@@ -66,6 +67,7 @@ input {
     font-weight: 14px;
 }
 
+/* styling for the button */
 button {
     border: none;
     outline: none;
